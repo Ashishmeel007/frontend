@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const AddNote = () =>{
     const [title,setTitle] = useState("");
-    const [body,setBody] = useState("");
+    const [body,setBody] = useState("")
 
      const handleSubmit = ()=> {
         const notedata={
